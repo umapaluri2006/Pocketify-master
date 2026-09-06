@@ -1,16 +1,100 @@
-# pocketify
+# Pocketify
 
-“Pocketify is a Flutter-based personal finance app that helps users manage their income, expenses, balance, and budget.”
+Pocketify is a Flutter-based personal finance management application that helps users track their income, expenses, balance, and budget in one place.
+
+## Features
+
+- Track income and expenses
+- View current balance
+- Manage monthly finances
+- Set and manage budgets
+- Add and edit transactions
+- Organize transactions by type/category
+- Perform financial calculations
+- Simple and user-friendly interface
+
+## Technologies Used
+
+- **Flutter** – Mobile application development
+- **Dart** – Programming language
+- **Intl** – Date and number formatting
+- **Bottom Navy Bar** – Bottom navigation
+- **Sliding Up Panel** – Interactive panels
+- **Math Expressions** – Mathematical calculations
+
+## Project Structure
+
+Pocketify/
+│
+├── android/          # Android-specific files
+├── ios/              # iOS-specific files
+├── assets/           # Images and other assets
+├── lib/              # Main application source code
+│   ├── main.dart
+│   ├── home.dart
+│   ├── detail_screen.dart
+│   ├── edit_screen.dart
+│   ├── type_list.dart
+│   ├── panel_widget.dart
+│   ├── splash.dart
+│   └── app_color.dart
+│
+├── test/              # Application tests
+├── web/               # Web support
+├── windows/           # Windows support
+├── macos/             # macOS support
+├── pubspec.yaml       # Project dependencies
+└── README.md
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+Make sure you have the following installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code
+- Android Emulator or physical Android device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+Clone the repository:
+
+    git clone https://github.com/umapaluri2006/Pocketify.git
+
+Move into the project directory:
+
+    cd Pocketify
+
+Install the dependencies:
+
+    flutter pub get
+
+Run the application:
+
+    flutter run
+
+## Purpose
+
+Pocketify was developed to provide a simple way for users to monitor their personal finances. Instead of manually calculating income, expenses, and remaining balance, users can manage these details through a single mobile application.
+
+## Future Improvements
+
+Some possible future improvements include:
+
+- User authentication
+- Cloud data synchronization
+- Spending charts and analytics
+- Budget notifications
+- Financial report generation
+- Bank account integration
+- Multi-currency support
+
+## Developer
+
+Developed using **Flutter and Dart**.
+
+## License
+
+This project is intended for educational and personal use.
