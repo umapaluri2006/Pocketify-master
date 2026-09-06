@@ -24,12 +24,12 @@ Pocketify is a Flutter-based personal finance management application that helps 
 
 ## Project Structure
 
+```text
 Pocketify/
-│
-├── android/          # Android-specific files
-├── ios/              # iOS-specific files
-├── assets/           # Images and other assets
-├── lib/              # Main application source code
+├── android/              # Android-specific files
+├── ios/                  # iOS-specific files
+├── assets/               # Images and other assets
+├── lib/                  # Main application source code
 │   ├── main.dart
 │   ├── home.dart
 │   ├── detail_screen.dart
@@ -38,13 +38,14 @@ Pocketify/
 │   ├── panel_widget.dart
 │   ├── splash.dart
 │   └── app_color.dart
-│
-├── test/              # Application tests
-├── web/               # Web support
-├── windows/           # Windows support
-├── macos/             # macOS support
-├── pubspec.yaml       # Project dependencies
-└── README.md
+├── test/                 # Application tests
+├── web/                  # Web support
+├── windows/              # Windows support
+├── macos/                # macOS support
+├── pubspec.yaml          # Project dependencies
+└── README.md             # Project documentation
+
+```
 
 ## Getting Started
 
